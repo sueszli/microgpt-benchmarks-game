@@ -68,7 +68,7 @@ def print_times(path: Path) -> None:
     stddev = math.sqrt(variance)
     print(f"'{path.stem}'")
     print(f"  Time (mean \u00b1 \u03c3):    {mean:8.0f} \u03bcs \u00b1 {stddev:8.0f} \u03bcs")
-    print(f"  Range (min \u2026 max):  {min(times):8.0f} \u03bcs \u2026 {max(times):8.0f} \u03bcs    {n} runs")
+    print(f"  Range (min \u2026 max):  {min(times):8.0f} \u03bcs \u2026 {max(times):8.0f} \u03bcs")
     print()
 
 
