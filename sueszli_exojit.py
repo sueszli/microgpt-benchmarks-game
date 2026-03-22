@@ -16,9 +16,6 @@ from itertools import accumulate
 from math import prod
 from pathlib import Path
 
-repo = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(repo))
-
 from exo import *
 from exo.libs.externs import expf, select, sqrt
 from exo.stdlib.scheduling import simplify
