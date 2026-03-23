@@ -1,9 +1,17 @@
+# /// script
+# requires-python = "==3.14.*"
+# dependencies = [
+#   "numpy",
+# ]
+# ///
+
 import random
 import time
 from collections import namedtuple
 from pathlib import Path
 
 import numpy as np
+
 from utils import assert_weights_match, save_times
 
 random.seed(42)

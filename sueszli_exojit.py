@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import ctypes
 import random
-import sys
 import time
 from collections import namedtuple
 from itertools import accumulate
@@ -19,10 +18,10 @@ from pathlib import Path
 from exo import *
 from exo.libs.externs import expf, select, sqrt
 from exo.stdlib.scheduling import simplify
-from utils import assert_weights_match, save_times
-
 from exojit.main import jit
 from exojit.patches_exo import Stack
+
+from utils import assert_weights_match, save_times
 
 random.seed(42)
 
